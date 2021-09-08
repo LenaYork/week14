@@ -1,0 +1,19 @@
+.main-container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.lonely {
+    font-size: smaller;
+    font-style: italic;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.greeting {
+    margin-top: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
