@@ -1,0 +1,23 @@
+.div {
+    width: 150px;
+    height: 150px;
+    border: 2px solid lime;
+    border-radius: 25%;
+    background-color: grey;;
+}
+
+.div:hover {
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;    
+}
