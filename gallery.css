@@ -1,0 +1,43 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 500px;
+    /* position: absolute; */
+}
+
+.pics-container {
+    width: 512px;
+    height: 512px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.pic {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.arrow {
+    width: 30px;
+}
+
+.left-arrow{
+    margin-right: 5px;
+}
+
+.right-arrow {
+    margin-left: 5px;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+#pic1, #pic2, #pic3, #pic4 {
+    display: none;
+}
